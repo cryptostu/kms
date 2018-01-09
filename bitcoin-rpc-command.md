@@ -29,10 +29,10 @@
 3. 多重签名
     * bitcoin-cli signrawtransaction   '0200000001d6a8aa7fb9a0e9cfbc100094ca7690facbe92eec26327d5bb7f67344bb1fa8ad0000000000ffffffff020046c323000000001976a914026e2446f0cf4a22073d106a7a6fe611fd300a2f88ac00a02526000000001976a91461b56bcf57e693508cc0b51773e511b4e32379ac88ac00000000'   '[{"txid":"ada81fbb4473f6b75b7d3226ec2ee9cbfa9076ca940010bccfe9a0b97faaa8d6","vout":0, "amount":12.5, "scriptPubKey":"a914fab32c2c9336a5668c0e7f6144c6ad624da9973d87","redeemScript":"5221039a1fabeed31775b4ef50be82673c17ce468eef3c547262097dc69ae67fe919dc2103195cb09f62e12acbc0c0cf05b3d00113bd68022dd136c49e86add54c162e25b32103bcb942b2e9ff81201e6264ea9b7d6537f0f45bec22fd9c469ba5b536dcd9b82f53ae"}]' '["cRpMoV3ejACE7ZrFkfJcobaisdB9F7GWET3T6qWTN2TYbQo8Tjr6", "cPfNbzdxHvC7xLWngqjmmPU1W77beEvZwgXKKfZhY7Cvubb3qJDi"]'
 
-###发送交易
+### 发送交易
 1. bitcoin-cli sendrawtransaction "signedhex"
 
-###其它的命令
+### 其它的命令
 1. bitcoin-cli help
 2. 获得比特币核心客户端状态的信息
     *  bitcoin-cli getinfo：

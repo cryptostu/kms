@@ -1,4 +1,4 @@
-#extension block
+# extension block
 1. https://github.com/tothemoon-org/extension-blocks/blob/master/spec.md
 2. 描述：不需要改变任何现存的共识规则，来增大比特币的交易吞吐量。
 3. 动机：比特币网络的吞吐量与它重新定向和拒绝服务限制的共识规则相关。
@@ -286,41 +286,8 @@
     * 虽然作用看起来有些缺点，但本规范的主要优点是不带有BIP141规则集的拓展块。相反，该体系将为处理拓展块奠定基础。使未来的比特币协议可以包含使用不同规则集的多种不同的拓展块。
     
 
---------
-###extension block 技术要点
-1. 双层结构； 标准块+拓展块（拓展块的merkle root）
-2. 利用了BIP141，143，144的一些功能，但是上述
-
-
-##邮件列表中的质疑
-1. 在pubkey.h 中 加入引入头文件：#include<tinyformat.h>
-2. 在 CPubKey 类加入该成员方法：
-std::string ToString(){
-    std::stringstream s;
-    for(unsigned int i = 0; i < this->size(); i++)  s << strprintf("%02x", vch[i]);
-    return s.str();
-}
-
-
-
-pubKey : 027d76fce745e0b3476ee49b66cb85115748884e79582ff11e456b5edb9136d4b2, addr : Tbc2ipbFNGC5oY6ZWFgGAC18Lvzt9Sf6Uq
-pubKey : 026c4e5af7cfb77a7ee9e234aaed89c2f76b91ea2644bb0b0d5728ae93a4f5c318, addr : TaGo4x1mS2PZPNHL87fV5ZCKQWCrY2pq8A
-pubKey : 032b86aef18b4f5014318b49d70056648a17c3637a0820c2dab1f95a0be0015616, addr : TgVAYUkeh7jUVGQBTGaLK2ysT4tEitRu4X
-
-
-index = 0 : 5221027d76fce745e0b3476ee49b66cb85115748884e79582ff11e456b5edb9136d4b2210227447a4aa11af69a354be2888408d08f8edfbcd463866ded84ff7c915e6eef102102230f7c43683fbd2a859a7ce76f06fb36c3ea994680016ec0a7165e30dbe9d7e353ae
-index = 1 : 5221026c4e5af7cfb77a7ee9e234aaed89c2f76b91ea2644bb0b0d5728ae93a4f5c3182103d43eae9d530901ba4293d5dd4b084147e905b588c85d84366280ed4adebb9b032103213fd6fa6bcd9fd3d72e2a5d17a67e1e3913384eaf5a3072cbf0c7a7daab1ef753ae
-index = 2 : 5221032b86aef18b4f5014318b49d70056648a17c3637a0820c2dab1f95a0be00156162103f9e3d762212228f7dcf7d10e1f2ed228973e002108fc034566b084e3df1ad2d32103bcb942b2e9ff81201e6264ea9b7d6537f0f45bec22fd9c469ba5b536dcd9b82f53ae
-
-
-=========================================
-### UTXO 的集合改进
-1. 网络协议也要求所有的新块信息
-2. 对每个区块使用上面所描述的网络协议和bit-vector,节点有足够的信息来充分验证每个交易。
-3. 对于GB字节区块的后端计算：一个由250字节2输入，2输出交易组成GB大小的区块，将有400万输出，这将是一个0.5M比特的向量。
-
 =========== Johnson Lau 的extension block proposal ==============================
-##Extension block softfork proposal
+## Extension block softfork proposal
 1. https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2017-January/013490.html
 2. 这个预BIP允许通过软分叉来增加额外的区块空间。这对于当前的钱包是完全透明的(无论是接收还是发送),但是利用额外块空间的新钱包将有完全不同的用户体验。
 3. 我确信这个提案具有争论性，但是我认为它是一个有趣的学术话题。如果我们有任何完全一致的强制性双向锚链设计，该提案就类似于这样。
