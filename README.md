@@ -2,3 +2,5 @@
 
 
 * [Bitcoin](bitcoin.md)
+
+* [Zero-knowledge](zero-knowledge.md)
