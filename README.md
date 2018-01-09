@@ -1,1 +1,1 @@
-# kbs
+# Knowledge Base System of Cryptocurrency
