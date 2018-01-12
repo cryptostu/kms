@@ -3,6 +3,7 @@
 
 * [Bitcoin](bitcoin.md)
 
-* [Zero-knowledge](zero-knowledge.md)
+* [Zero-Knowledge](Zero-Knowledge.md)
 
 * [ECDSA](ECDSA.md)
+* [Ethereum](ethereum.md)
