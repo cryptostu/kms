@@ -56,3 +56,6 @@
 2. byzcoin [http://hackingdistributed.com/2016/08/04/byzcoin/](http://hackingdistributed.com/2016/08/04/byzcoin/)
 3. bitcoin-ng [https://arxiv.org/pdf/1510.02037.pdf](https://arxiv.org/pdf/1510.02037.pdf)
 
+
+## Future Technological
+1. Future Technological Directions in Bitcoin [pdf](bitcoin/Future%20Technological%20Directions%20in%20Bitcoin%20-%20Google%20Docs.pdf) [link](https://docs.google.com/document/d/1iNzJtJRq9-0vdILQAe9Bcj7r1a7xYVf8CSY0_oFrH9c/edit#heading=h.ng5oro5ybt64)
