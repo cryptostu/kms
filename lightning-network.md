@@ -1,0 +1,1 @@
+* wither paper [english](https://lightning.network/lightning-network-paper.pdf)

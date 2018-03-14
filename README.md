@@ -13,6 +13,8 @@
 
 * [side chain](sidechain.md)
 
+* [Lightning Network](lightning-network.md)
+
 
 # Knowledge of computer system
 
