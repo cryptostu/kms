@@ -11,6 +11,8 @@
 
 * [Decentralized Storage](decentralized-storage.md)
 
+* [side chain](sidechain.md)
+
 
 # Knowledge of computer system
 
