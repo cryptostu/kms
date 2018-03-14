@@ -10,3 +10,8 @@
 * [Ethereum](ethereum.md)
 
 * [Decentralized Storage](decentralized-storage.md)
+
+
+# Knowledge of computer system
+
+## [Go](go.md)
