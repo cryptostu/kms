@@ -18,6 +18,6 @@
 
 # Knowledge of computer system
 
-## [Go](go.md)
+* [Go](go.md)
 
-##[c/c++](cpp.md)
+* [c/c++](cpp.md)
