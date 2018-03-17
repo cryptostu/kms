@@ -1,3 +1,7 @@
+## re-enabled op codes
+
+* [Use cases for re-enabled op codes](https://www.yours.org/content/use-cases-for-re-enabled-op-codes-8b150b6a0deb)
+
 ## OP_GROUP
 
 * BUIP-077 [https://github.com/BitcoinUnlimited/BUIP/blob/master/077.mediawiki](https://github.com/BitcoinUnlimited/BUIP/blob/master/077.mediawiki)
@@ -9,7 +13,9 @@
 * OP_GROUP - Introducing Administrative Tokens [https://www.yours.org/content/op_group---introducing-administrative-tokens-f7584a9fc397/](https://www.yours.org/content/op_group---introducing-administrative-tokens-f7584a9fc397/)
 
 * Colored Coins whiterpaper [https://docs.google.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit?pli=1](https://docs.google.com/document/d/1AnkP_cVZTCMLIzw4DvsW6M8Q2JC0lIzrTLuoWu2z1BE/edit?pli=1)
+
 ## OP_DATASIGVERIFY
  
 * [Enable oracle-based data import via OP_DATASIGVERIFY](https://github.com/gandrewstone/BitcoinUnlimited/blob/op_datasigverify/doc/opdatasigverify.md)
+
 
