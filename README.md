@@ -1,7 +1,7 @@
 # Knowledge Base System of Cryptocurrency
 
 
-* [Bitcoin](bitcoin.md)
+* [Bitcoin Cash](bch.md)
 
 * [Zero-Knowledge](Zero-Knowledge.md)
 
