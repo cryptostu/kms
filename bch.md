@@ -62,3 +62,8 @@
 
 ## [op_code](bch/op_code.md)
 
+## weak block
+1. https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-September/011157.html
+2. https://github.com/rustyrussell/weak-blocks
+
+
