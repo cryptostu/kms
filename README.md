@@ -15,6 +15,8 @@
 
 * [Lightning Network](lightning-network.md)
 
+* [Omni layer](omni.md)
+
 
 # Knowledge of computer system
 
