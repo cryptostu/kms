@@ -65,6 +65,6 @@
 ## weak block
 1. https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-September/011157.html
 2. https://github.com/rustyrussell/weak-blocks
-
+3. http://www.8btc.com/subchains-reduce-orphaning-risk
 
 
